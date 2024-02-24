@@ -191,27 +191,27 @@ body {
 
 .dot:nth-child(1) {
   animation-delay: 0.1s;
-  background: #26A1D0;
+  background: #1F90FF;
 }
 
 .dot:nth-child(2) {
   animation-delay: 0.2s;
-  background: #66E4F7;
+  background: #0E61D1;
 }
 
 .dot:nth-child(3) {
   animation-delay: 0.3s;
-  background: #7379F7;
+  background: #1432BA;
 }
 
 .dot:nth-child(4) {
   animation-delay: 0.4s;
-  background: #FFB642;
+  background: #0E61D1;
 }
 
 .dot:nth-child(5) {
   animation-delay: 0.5s;
-  background: #FFDC8D;
+  background: #1F90FF;
 }
 
 @keyframes slide {
@@ -234,30 +234,8 @@ html {
   font-size: 14px;
 }
 
-/*default version*/
-@font-face {
-  font-family: 'ADLaMDisplay';
-  src: url('./../../font/ADLaMDisplay.ttf');
-  src:
-    local('ADLaMDisplay'),
-    local('ADLaMDisplay'),
-    url('./../../font/ADLaMDisplay.ttf') format('opentype');
-}
-
-/*bold version*/
-@font-face {
-  font-family: 'ADLaMDisplay Bold';
-  src: url('./../../font/ADLaMDisplay.ttf');
-  src:
-    local('ADLaMDisplay Bold'),
-    local('ADLaMDisplay Bold'),
-    url('./../../font/ADLaMDisplay.ttf') format('opentype');
-  font-weight: bold;
-}
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  /* font-family: 'ADLaMDisplay'; */
   font-size: 12px;
   font-weight: 100;
   color: rgba(41, 50, 65, 0.8);
